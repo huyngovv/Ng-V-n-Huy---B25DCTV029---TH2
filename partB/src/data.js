@@ -1,0 +1,79 @@
+export const books = [
+  {
+    "id": "1",
+    "title": "Dế Mèn phiêu lưu ký",
+    "author": "Tô Hoài",
+    "genre": "Thiếu nhi",
+    "year": 1941
+  },
+  {
+    "id": "2",
+    "title": "Tôi thấy hoa vàng trên cỏ xanh",
+    "author": "Nguyễn Nhật Ánh",
+    "genre": "Văn học",
+    "year": 2010
+  },
+  {
+    "id": "3",
+    "title": "Số đỏ",
+    "author": "Vũ Trọng Phụng",
+    "genre": "Văn học",
+    "year": 1936
+  },
+  {
+    "id": "4",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Công nghệ",
+    "year": 2008
+  },
+  {
+    "id": "5",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "genre": "Công nghệ",
+    "year": 2008
+  },
+  {
+    "id": "6",
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "genre": "Công nghệ",
+    "year": 2018
+  },
+  {
+    "id": "7",
+    "title": "Tuổi thơ dữ dội",
+    "author": "Phùng Quán",
+    "genre": "Thiếu nhi",
+    "year": 1988
+  },
+  {
+    "id": "8",
+    "title": "Cho tôi xin một vé đi tuổi thơ",
+    "author": "Nguyễn Nhật Ánh",
+    "genre": "Thiếu nhi",
+    "year": 2008
+  },
+  {
+    "id": "9",
+    "title": "Nhà giả kim",
+    "author": "Paulo Coelho",
+    "genre": "Văn học",
+    "year": 1988
+  },
+  {
+    "id": "10",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "genre": "Công nghệ",
+    "year": 1999
+  },
+  {
+    "id": "11",
+    "title": "Truyện Kiều",
+    "author": "Nguyễn Du",
+    "genre": "Văn học",
+    "year": 1820
+  }
+];

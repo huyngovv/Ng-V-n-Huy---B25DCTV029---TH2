@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thư viện lớp – TypeScript</title>
+  <script type="module" crossorigin src="/assets/index-snHiLMmN.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CqG6bmik.css">
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Thư viện lớp</h1>
+  <div class="header-actions"><span id="favCount">♥ 0 yêu thích</span> <button id="themeBtn" type="button" aria-pressed="false">Chế độ tối</button></div>
+</div></header>
+<main class="wrap">
+  <section class="tools" aria-label="Công cụ">
+    <input id="search" type="search" placeholder="Tìm theo tên sách…" aria-label="Tìm theo tên">
+    <select id="genreFilter" aria-label="Lọc thể loại"></select>
+  </section>
+  <p id="status" role="status"></p>
+  <ul id="list" class="grid"></ul>
+
+  <form id="addForm" novalidate>
+    <h2>Thêm sách mới</h2>
+    <label>Tên sách <input name="title"><span class="error-msg" data-for="title"></span></label>
+    <label>Tác giả <input name="author"><span class="error-msg" data-for="author"></span></label>
+    <label>Thể loại <select name="genre"></select><span class="error-msg" data-for="genre"></span></label>
+    <label>Năm xuất bản <input name="year" type="number"><span class="error-msg" data-for="year"></span></label>
+    <button type="submit">Thêm sách</button>
+  </form>
+</main>
+<footer><div class="wrap">© Thư viện lớp</div></footer>
+</body>
+</html>
